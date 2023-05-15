@@ -1,0 +1,19 @@
+{
+    "name": "@owow/eslint-config-monorepo",
+    "version": "0.1.0",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "peerDependencies": {
+        "eslint": ">=7.4.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.38.0",
+        "typescript": "^5.0.4"
+    },
+    "scripts": {
+        "publish:basic": "npm publish --workspace @owow/eslint-config-basic"
+    }
+}
