@@ -1,5 +1,5 @@
 {
-    "name": "@owow/eslint-config-monorepo",
+    "name": "@owowagency/eslint-config-monorepo",
     "version": "0.1.0",
     "license": "MIT",
     "private": true,
@@ -11,9 +11,11 @@
     },
     "devDependencies": {
         "eslint": "^8.38.0",
-        "typescript": "^5.0.4"
+        "typescript": "^5.0.4",
+        "owowagency/eslint-config-basic": "link:./packages/eslint-config-basic"
     },
     "scripts": {
-        "publish:basic": "npm publish --workspace @owow/eslint-config-basic"
+        "publish:basic": "npm publish --workspace @owowagency/eslint-config-basic",
+        "lint": "eslint ."
     }
 }
