@@ -1,6 +1,6 @@
 {
     "name": "@owowagency/eslint-config-ts",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "",
     "license": "MIT",
     "homepage": "https://github.com/owowagency/eslint-config",
