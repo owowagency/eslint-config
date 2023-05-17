@@ -13,22 +13,23 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-node@v3
+      - name: 🧳 Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: 🏃 Setup Node
+        uses: actions/setup-node@v3
         with:
           node-version: 18.x
+          cache: pnpm
           registry-url: https://npm.pkg.github.com/
 
       - run: npx changelogithub
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-      - run: npm publish --workspace @owowagency/eslint-config-basic
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          NPM_TOKEN: ${{secrets.GITHUB_TOKEN}}
-
-      - run: npm publish --workspace @owowagency/eslint-config-basic
+      - run: pnpm publish -r
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
