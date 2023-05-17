@@ -18,9 +18,9 @@ jobs:
           node-version: 18.x
           registry-url: https://npm.pkg.github.com/
 
-      # - run: npx changelogithub
-      #   env:
-      #     GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - run: npx changelogithub
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - run: npm publish eslint-config-basic
         env:
@@ -28,7 +28,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
           NPM_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-      - run: npm publish eslint-config-basic
+      - run: npm publish eslint-config-ts
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
