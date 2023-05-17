@@ -16,17 +16,7 @@
     },
     "peerDependencies": {
         "eslint": ">=7.4.0",
-        "typescript": ">=4.3.4"
-    },
-    "peerDependenciesMeta": {
-        "eslint": {
-            "optional": false,
-            "autoInstall": true
-        },
-        "typescript": {
-            "optional": false,
-            "autoInstall": true
-        }
+        "typescript": ">=3.9"
     },
     "dependencies": {
         "@owowagency/eslint-config-basic": "workspace:*",
