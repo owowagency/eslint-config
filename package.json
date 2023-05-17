@@ -1,20 +1,22 @@
 {
     "name": "@owowagency/eslint-config-monorepo",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "MIT",
     "private": true,
     "peerDependencies": {
         "eslint": ">=7.4.0"
     },
     "devDependencies": {
+        "@owowagency/eslint-config-basic": "workspace:*",
+        "bumpp": "^9.1.0",
         "eslint": "^8.38.0",
-        "typescript": "^5.0.4",
-        "@owowagency/eslint-config-basic": "workspace:*"
+        "typescript": "^5.0.4"
     },
     "scripts": {
         "preinstall": "npx only-allow pnpm",
         "publish:basic": "npm publish --workspace @owowagency/eslint-config-basic",
-        "lint": "eslint ."
+        "lint": "eslint .",
+        "release": "bumpp -r"
     },
     "packageManager": "pnpm@8.5.1"
 }
