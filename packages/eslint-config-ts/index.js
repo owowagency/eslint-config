@@ -1,9 +1,3 @@
-const fs = require('node:fs');
-const { join } = require('node:path');
-const basic = require('@owowagency/eslint-config-basic');
-
-const tsconfig = process.env.ESLINT_TSCONFIG || 'tsconfig.eslint.json';
-
 module.exports = {
     extends: [
         '@owowagency/eslint-config-basic',
@@ -15,44 +9,6 @@ module.exports = {
             node: { extensions: ['.js', '.jsx', '.mjs', '.ts', '.tsx', '.d.ts'] },
         },
     },
-    overrides: basic.overrides.concat(
-        !fs.existsSync(join(process.cwd(), tsconfig))
-            ? []
-            : [
-                {
-                    parserOptions: {
-                        tsconfigRootDir: process.cwd(),
-                        project: [tsconfig],
-                    },
-                    parser: '@typescript-eslint/parser',
-                    excludedFiles: ['**/*.md/*.*'],
-                    files: ['*.ts', '*.tsx', '*.mts', '*.cts'],
-                    rules: {
-                        'no-throw-literal': 'off',
-                        '@typescript-eslint/no-throw-literal': 'error',
-                        'no-implied-eval': 'off',
-                        '@typescript-eslint/no-implied-eval': 'error',
-                        'dot-notation': 'off',
-                        '@typescript-eslint/dot-notation': ['error', { allowKeywords: true }],
-                        '@typescript-eslint/no-floating-promises': 'error',
-                        '@typescript-eslint/no-misused-promises': 'error',
-                        '@typescript-eslint/await-thenable': 'error',
-                        '@typescript-eslint/no-for-in-array': 'error',
-                        '@typescript-eslint/no-unnecessary-type-assertion': 'error',
-                        '@typescript-eslint/no-unsafe-argument': 'error',
-                        '@typescript-eslint/no-unsafe-assignment': 'error',
-                        '@typescript-eslint/no-unsafe-call': 'error',
-                        '@typescript-eslint/no-unsafe-member-access': 'error',
-                        '@typescript-eslint/no-unsafe-return': 'error',
-                        'require-await': 'off',
-                        '@typescript-eslint/require-await': 'error',
-                        '@typescript-eslint/restrict-plus-operands': 'error',
-                        '@typescript-eslint/restrict-template-expressions': 'error',
-                        '@typescript-eslint/unbound-method': 'error',
-                    },
-                },
-            ],
-    ),
     rules: {
         'import/named': 'off',
 
@@ -107,7 +63,7 @@ module.exports = {
             offsetTernaryExpressions: true,
         }],
         'no-invalid-this': 'off',
-        '@typescript-eslint/no-invalid-this': 'error',
+        '@typescript-eslint/no-invalid-this': 'off',
         'no-redeclare': 'off',
         '@typescript-eslint/no-redeclare': 'error',
         'no-use-before-define': 'off',
