@@ -1,8 +1,7 @@
 {
     "name": "@owowagency/eslint-config-monorepo",
-    "version": "0.1.1",
+    "version": "0.1.6",
     "license": "MIT",
-    "private": true,
     "peerDependencies": {
         "eslint": ">=7.4.0"
     },
