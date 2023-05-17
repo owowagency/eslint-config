@@ -1,5 +1,5 @@
 {
-    "name": "@owowagency/eslint-config-monorepo",
+    "name": "@owowagency/eslint-config",
     "version": "0.1.6",
     "license": "MIT",
     "peerDependencies": {
