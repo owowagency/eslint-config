@@ -13,7 +13,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: 🧳 Install pnpm 
+      - name: 🧳 Install pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 8
@@ -22,7 +22,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18.x
-          cache: 'pnpm'
+          cache: pnpm
 
       - name: 📦 Install dependencies
         run: pnpm install --frozen-lockfile
