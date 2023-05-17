@@ -25,6 +25,9 @@ jobs:
           cache: pnpm
           registry-url: https://npm.pkg.github.com/
 
+      - name: 📦 Install dependencies
+        run: pnpm install --frozen-lockfile
+
       - run: npx changelogithub
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
