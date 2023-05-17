@@ -1,6 +1,6 @@
 {
     "name": "@owowagency/eslint-config",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "license": "MIT",
     "private": true,
     "peerDependencies": {
@@ -16,7 +16,7 @@
         "preinstall": "npx only-allow pnpm",
         "publish:basic": "npm publish --workspace @owowagency/eslint-config-basic",
         "lint": "eslint .",
-        "release": "bumpp -r && pnpm -r publish"
+        "release": "bumpp -r"
     },
     "packageManager": "pnpm@8.5.1",
     "publishConfig": {
