@@ -16,7 +16,10 @@
         "preinstall": "npx only-allow pnpm",
         "publish:basic": "npm publish --workspace @owowagency/eslint-config-basic",
         "lint": "eslint .",
-        "release": "bumpp -r"
+        "release": "bumpp -r && pnpm -r publish"
     },
-    "packageManager": "pnpm@8.5.1"
+    "packageManager": "pnpm@8.5.1",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    }
 }
