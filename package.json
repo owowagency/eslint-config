@@ -3,19 +3,18 @@
     "version": "0.1.0",
     "license": "MIT",
     "private": true,
-    "workspaces": [
-        "packages/*"
-    ],
     "peerDependencies": {
         "eslint": ">=7.4.0"
     },
     "devDependencies": {
         "eslint": "^8.38.0",
         "typescript": "^5.0.4",
-        "owowagency/eslint-config-basic": "link:./packages/eslint-config-basic"
+        "@owowagency/eslint-config-basic": "workspace:*"
     },
     "scripts": {
+        "preinstall": "npx only-allow pnpm",
         "publish:basic": "npm publish --workspace @owowagency/eslint-config-basic",
         "lint": "eslint ."
-    }
+    },
+    "packageManager": "pnpm@8.5.1"
 }
