@@ -17,10 +17,8 @@ module.exports = {
         'plugin:vue/vue3-recommended',
     ],
     rules: {
-        'vue/attributes-order': ['error', { alphabetical: true }],
         'vue/html-indent': ['error', 4],
         'vue/multi-word-component-names': 'off',
-        'vue/no-v-html': 'off',
         'vue/padding-line-between-tags': 'error',
         'vue/component-tags-order': ['error', { order: ['script', 'template', 'style'] }],
     },
