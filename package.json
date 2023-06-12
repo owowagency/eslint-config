@@ -2,6 +2,7 @@
     "name": "@owowagency/eslint-config",
     "version": "0.1.4",
     "license": "MIT",
+    "private": true,
     "peerDependencies": {
         "eslint": ">=7.4.0"
     },
