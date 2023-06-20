@@ -85,12 +85,12 @@ importers:
 
   packages/eslint-config-cypress-ts:
     dependencies:
+      '@owowagency/eslint-config-cypress-basic':
+        specifier: workspace:*
+        version: link:../eslint-config-cypress-basic
       '@owowagency/eslint-config-ts':
         specifier: workspace:*
         version: link:../eslint-config-ts
-      eslint-plugin-cypress:
-        specifier: ^2.13.3
-        version: 2.13.3(eslint@8.38.0)
     devDependencies:
       eslint:
         specifier: ^8.38.0
