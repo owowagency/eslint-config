@@ -19,7 +19,7 @@
     },
     "dependencies": {
         "@owowagency/eslint-config-ts": "workspace:*",
-        "eslint-plugin-cypress": "^2.13.3"
+        "@owowagency/eslint-config-cypress-basic": "workspace:*"
     },
     "devDependencies": {
         "eslint": "^8.38.0",
