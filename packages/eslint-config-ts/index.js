@@ -23,7 +23,7 @@ module.exports = {
 
         // Override JS
         'no-useless-constructor': 'off',
-        'indent': 'off',
+        indent: 'off',
         '@typescript-eslint/indent': ['error', 4, {
             SwitchCase: 1,
             VariableDeclarator: 1,
@@ -74,9 +74,9 @@ module.exports = {
         '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
         'object-curly-spacing': 'off',
         '@typescript-eslint/object-curly-spacing': ['error', 'always'],
-        'semi': 'off',
+        semi: 'off',
         '@typescript-eslint/semi': ['error', 'always'],
-        'quotes': 'off',
+        quotes: 'off',
         '@typescript-eslint/quotes': ['error', 'single'],
         'space-before-blocks': 'off',
         '@typescript-eslint/space-before-blocks': ['error', 'always'],
