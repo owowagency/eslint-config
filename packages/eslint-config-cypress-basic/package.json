@@ -1,6 +1,6 @@
 {
     "name": "@owowagency/eslint-config-cypress-basic",
-    "version": "0.1.12",
+    "version": "0.1.13",
     "description": "",
     "license": "MIT",
     "homepage": "https://github.com/owowagency/eslint-config",
