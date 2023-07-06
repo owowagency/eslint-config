@@ -47,7 +47,7 @@ The MIT License (MIT). Please see [License File](./LICENSE) for more information
 <br>
 <br>
 
-<img id="owow" src="assets/owow_dark.svg#gh-dark-mode-only" />
-<img id="owow" src="assets/owow_light.svg#gh-light-mode-only" />
+<img id="owow" src="assets/owow_dark.svg#gh-dark-mode-only" width="150" />
+<img id="owow" src="assets/owow_light.svg#gh-light-mode-only" width="150" />
 
 This package has been brought to you with much love by the wizkids of [OWOW](https://owow.io/). Do you like this package? We’re still looking for new talent and Wizkids. So do you want to contribute to open source, while getting paid? [Apply now](https://owow.io/careers).
