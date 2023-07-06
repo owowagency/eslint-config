@@ -19,8 +19,7 @@
     },
     "peerDependenciesMeta": {
         "eslint": {
-            "optional": false,
-            "autoInstall": true
+            "optional": false
         }
     },
     "dependencies": {

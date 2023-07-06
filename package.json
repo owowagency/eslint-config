@@ -7,15 +7,18 @@
         "eslint": ">=7.4.0"
     },
     "devDependencies": {
-        "@owowagency/eslint-config-basic": "workspace:*",
         "bumpp": "^9.1.0",
         "eslint": "^8.38.0",
         "typescript": "^5.0.4"
     },
     "scripts": {
-        "preinstall": "npx only-allow pnpm",
         "lint": "eslint .",
         "release": "bumpp -r"
     },
-    "packageManager": "pnpm@8.5.1"
+    "workspaces": {
+        "packages": [
+            "packages/**"
+        ]
+    },
+    "packageManager": "yarn@3.6.1"
 }

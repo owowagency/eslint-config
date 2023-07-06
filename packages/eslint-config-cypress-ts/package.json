@@ -18,8 +18,8 @@
         "eslint": ">=7.4.0"
     },
     "dependencies": {
-        "@owowagency/eslint-config-ts": "workspace:*",
-        "@owowagency/eslint-config-cypress-basic": "workspace:*"
+        "@owowagency/eslint-config-cypress-basic": "workspace:0.1.13",
+        "@owowagency/eslint-config-ts": "workspace:0.1.13"
     },
     "devDependencies": {
         "eslint": "^8.38.0",

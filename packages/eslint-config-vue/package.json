@@ -1,6 +1,6 @@
 {
     "name": "@owowagency/eslint-config-vue",
-    "version": "0.1.13",
+    "version": "0.1.14",
     "description": "",
     "license": "MIT",
     "keywords": [
@@ -11,10 +11,11 @@
         "index.js"
     ],
     "peerDependencies": {
-        "eslint": ">=7.4.0"
+        "eslint": ">=7.4.0",
+        "typescript": ">=3.9"
     },
     "dependencies": {
-        "@owowagency/eslint-config-ts": "workspace:*",
+        "@owowagency/eslint-config-ts": "workspace:0.1.13",
         "eslint-plugin-vue": "^9.13.0"
     },
     "devDependencies": {
