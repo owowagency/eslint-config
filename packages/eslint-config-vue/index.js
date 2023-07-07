@@ -19,6 +19,7 @@ module.exports = {
     rules: {
         'vue/html-indent': ['error', 4],
         'vue/multi-word-component-names': 'off',
+        'vue/padding-line-between-tags': 'error',
         'vue/component-tags-order': ['error', { order: ['script', 'template', 'style'] }],
     },
 };
