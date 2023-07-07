@@ -1,0 +1,23 @@
+{
+  "npmPublish": false,
+  "extends": "semantic-release-monorepo",
+  "branches": [
+    "feature/semantic-release",
+    "master"
+  ],
+  "plugins": [
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md"
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["CHANGELOG.md"]
+      }
+    ]
+  ]
+}
