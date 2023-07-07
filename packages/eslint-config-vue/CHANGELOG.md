@@ -1,3 +1,10 @@
+# [@owowagency/eslint-config-vue-v1.0.2](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-vue-v1.0.1...@owowagency/eslint-config-vue-v1.0.2) (2023-07-07)
+
+
+### Bug Fixes
+
+* **bump:** Testing version bumping ([7257d40](https://github.com/owowagency/eslint-config/commit/7257d409068637ffe7f13f52c3bc15d0bcecb648))
+
 # [@owowagency/eslint-config-vue-v1.0.1](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-vue-v1.0.0...@owowagency/eslint-config-vue-v1.0.1) (2023-07-07)
 
 
