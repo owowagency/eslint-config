@@ -525,7 +525,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@owowagency/eslint-config-basic@workspace:0.1.13, @owowagency/eslint-config-basic@workspace:packages/eslint-config-basic":
+"@owowagency/eslint-config-basic@workspace:^, @owowagency/eslint-config-basic@workspace:packages/eslint-config-basic":
   version: 0.0.0-use.local
   resolution: "@owowagency/eslint-config-basic@workspace:packages/eslint-config-basic"
   dependencies:
@@ -558,11 +558,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@owowagency/eslint-config-cypress-basic@workspace:0.1.13, @owowagency/eslint-config-cypress-basic@workspace:packages/eslint-config-cypress-basic":
+"@owowagency/eslint-config-cypress-basic@workspace:^, @owowagency/eslint-config-cypress-basic@workspace:packages/eslint-config-cypress-basic":
   version: 0.0.0-use.local
   resolution: "@owowagency/eslint-config-cypress-basic@workspace:packages/eslint-config-cypress-basic"
   dependencies:
-    "@owowagency/eslint-config-basic": "workspace:0.1.13"
+    "@owowagency/eslint-config-basic": "workspace:^"
     "@semantic-release/changelog": ^6.0.3
     "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/git": ^9.0.1
@@ -581,8 +581,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@owowagency/eslint-config-cypress-ts@workspace:packages/eslint-config-cypress-ts"
   dependencies:
-    "@owowagency/eslint-config-cypress-basic": "workspace:0.1.13"
-    "@owowagency/eslint-config-ts": "workspace:0.1.13"
+    "@owowagency/eslint-config-cypress-basic": "workspace:^"
+    "@owowagency/eslint-config-ts": "workspace:^"
     "@semantic-release/changelog": ^6.0.3
     "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/git": ^9.0.1
@@ -600,7 +600,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@owowagency/eslint-config-react@workspace:packages/eslint-config-react"
   dependencies:
-    "@owowagency/eslint-config-ts": "workspace:0.1.13"
+    "@owowagency/eslint-config-ts": "workspace:^"
     "@semantic-release/changelog": ^6.0.3
     "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/git": ^9.0.1
@@ -617,11 +617,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@owowagency/eslint-config-ts@workspace:0.1.13, @owowagency/eslint-config-ts@workspace:packages/eslint-config-ts":
+"@owowagency/eslint-config-ts@workspace:^, @owowagency/eslint-config-ts@workspace:packages/eslint-config-ts":
   version: 0.0.0-use.local
   resolution: "@owowagency/eslint-config-ts@workspace:packages/eslint-config-ts"
   dependencies:
-    "@owowagency/eslint-config-basic": "workspace:0.1.13"
+    "@owowagency/eslint-config-basic": "workspace:^"
     "@semantic-release/changelog": ^6.0.3
     "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/git": ^9.0.1
@@ -641,7 +641,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@owowagency/eslint-config-vue@workspace:packages/eslint-config-vue"
   dependencies:
-    "@owowagency/eslint-config-ts": "workspace:0.1.13"
+    "@owowagency/eslint-config-ts": "workspace:^"
     "@semantic-release/changelog": ^6.0.3
     "@semantic-release/commit-analyzer": ^9.0.2
     "@semantic-release/git": ^9.0.1

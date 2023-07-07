@@ -1,7 +1,6 @@
 {
   "npmPublish": false,
   "extends": "semantic-release-monorepo",
-  
   "branches": [
     "master",
     "feature/semantic-release"
