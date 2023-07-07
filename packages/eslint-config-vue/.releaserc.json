@@ -1,8 +1,9 @@
 {
-  "npmPublish": true,
+  "npmPublish": false,
   "extends": "semantic-release-monorepo",
   "branches": [
-    "master"
+    "master",
+    "feature/semantic-release"
   ],
   "plugins": [
     "@semantic-release/npm",
