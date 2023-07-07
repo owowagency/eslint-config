@@ -1,3 +1,10 @@
+# [@owowagency/eslint-config-react-v1.0.1](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-react-v1.0.0...@owowagency/eslint-config-react-v1.0.1) (2023-07-07)
+
+
+### Bug Fixes
+
+* **semantic:** Add semantic-release-yarn ([252b406](https://github.com/owowagency/eslint-config/commit/252b406fa69562146f1dec827d9547409ec711fc))
+
 # @owowagency/eslint-config-react-v1.0.0 (2023-07-07)
 
 
