@@ -1,3 +1,10 @@
+# [@owowagency/eslint-config-react-v1.0.2](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-react-v1.0.1...@owowagency/eslint-config-react-v1.0.2) (2023-07-07)
+
+
+### Bug Fixes
+
+* **bump:** Bump versions of all packages ([150fef6](https://github.com/owowagency/eslint-config/commit/150fef6fa060c63fcdd38e0e67ad566de3df4cf2))
+
 # [@owowagency/eslint-config-react-v1.0.1](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-react-v1.0.0...@owowagency/eslint-config-react-v1.0.1) (2023-07-07)
 
 
