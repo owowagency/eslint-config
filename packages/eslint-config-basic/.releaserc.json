@@ -1,5 +1,5 @@
 {
-  "npmPublish": false,
+  "npmPublish": true,
   "extends": "semantic-release-monorepo",
   "branches": [
     "master"
