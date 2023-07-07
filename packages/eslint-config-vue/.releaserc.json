@@ -5,7 +5,6 @@
     "master",
     "feature/semantic-release"
   ],
-  
   "plugins": [
     [
       "semantic-release-yarn",
