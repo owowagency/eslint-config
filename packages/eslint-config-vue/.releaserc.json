@@ -1,10 +1,17 @@
 {
-  "npmPublish": true,
+  "npmPublish": false,
   "extends": "semantic-release-monorepo",
   "branches": [
-    "master"
+    "master",
+    "feature/semantic-release"
   ],
   "plugins": [
+    [
+      "semantic-release-yarn",
+      {
+        "npmPublish": false
+      }
+    ],
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     [
