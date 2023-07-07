@@ -14,27 +14,41 @@
 # 📖 Table of contents
 
 1. [Installation](#%EF%B8%8F-installation)
-1. [Basic](packages/eslint-config-basic/README.md)
-1. [Cypress Basic](packages/eslint-config-cypress-basic/README.md)
-1. [Cypress TS](packages/eslint-config-cypress-ts/README.md)
-1. [React](packages/eslint-config-react/README.md)
-1. [TypeScript](packages/eslint-config-ts/README.md)
-1. [Vue](packages/eslint-config-vue/README.md)
+1. [Packages](#-packages)
 1. [Contributing](#-contributing)
 1. [License](#-license)
 1. [OWOW](#owow)
 
 # ⚙️ Installation
 
-Installing this package can be done by using `npm` or `yarn`. (Example for the vue config)
+Installation of the basic ESLint config can be done by using `npm` or `yarn`, see [packages](#-packages) for all our ESLint configurations
 
 ```bash
 # npm
-npm install @owowagency/eslint-config-vue
+npm install @owowagency/eslint-config-basic
 
 # yarn
-yarn add @owowagency/eslint-config-vue
+yarn add @owowagency/eslint-config-basic
 ```
+
+Add the following to your ESLint configuration file
+
+```js
+{
+    extends: [
+        '@owowagency/eslint-config-basic',
+    ]
+}
+```
+
+# 📦 Packages
+
+1. [Basic](packages/eslint-config-basic/README.md)
+1. [Cypress Basic](packages/eslint-config-cypress-basic/README.md)
+1. [Cypress TS](packages/eslint-config-cypress-ts/README.md)
+1. [React](packages/eslint-config-react/README.md)
+1. [TypeScript](packages/eslint-config-ts/README.md)
+1. [Vue](packages/eslint-config-vue/README.md)
 
 # 🫶 Contributing
 
