@@ -5,7 +5,6 @@
     "master",
     "feature/semantic-release"
   ],
-  
   "plugins": [
     [
       "semantic-release-yarn",
@@ -24,7 +23,7 @@
     [
       "@semantic-release/git",
       {
-        "assets": ["CHANGELOG.md"]
+        "assets": ["CHANGELOG.md", "package.json"]
       }
     ]
   ]
