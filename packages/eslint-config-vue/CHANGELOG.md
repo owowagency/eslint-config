@@ -1,3 +1,11 @@
+# [@owowagency/eslint-config-vue-v1.0.1](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-vue-v1.0.0...@owowagency/eslint-config-vue-v1.0.1) (2023-07-07)
+
+
+### Bug Fixes
+
+* **semantic:** Add semantic-release-yarn ([252b406](https://github.com/owowagency/eslint-config/commit/252b406fa69562146f1dec827d9547409ec711fc))
+* **testing:** Checking if @semantic-release/npm bumps version in package.json ([63bf5aa](https://github.com/owowagency/eslint-config/commit/63bf5aaba8954e2c0503c0d61d826c7004b8728d))
+
 # @owowagency/eslint-config-vue-v1.0.0 (2023-07-07)
 
 
