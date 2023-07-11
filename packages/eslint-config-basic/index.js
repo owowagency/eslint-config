@@ -12,6 +12,7 @@ module.exports = {
         'plugin:jsonc/recommended-with-jsonc',
         'plugin:yml/standard',
         'plugin:markdown/recommended',
+        'prettier',
     ],
     ignorePatterns: [
         '*.min.*',
@@ -50,6 +51,7 @@ module.exports = {
         'unicorn',
         'no-only-tests',
         'unused-imports',
+        'prettier',
     ],
     settings: {
         'import/resolver': {

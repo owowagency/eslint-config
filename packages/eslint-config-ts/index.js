@@ -1,8 +1,9 @@
 module.exports = {
     extends: [
-        '@owowagency/eslint-config-basic',
         'plugin:import/typescript',
         'plugin:@typescript-eslint/recommended',
+        '@owowagency/eslint-config-basic',
+        'prettier',
     ],
     settings: {
         'import/resolver': {

@@ -3,6 +3,7 @@ module.exports = {
         'plugin:react/recommended',
         'plugin:react-hooks/recommended',
         '@owowagency/eslint-config-ts',
+        'prettier',
     ],
     settings: {
         react: {
