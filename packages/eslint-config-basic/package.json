@@ -1,6 +1,6 @@
 {
     "name": "@owowagency/eslint-config-basic",
-    "version": "0.1.13",
+    "version": "1.0.2",
     "description": "",
     "license": "MIT",
     "homepage": "https://github.com/owowagency/eslint-config",
@@ -19,8 +19,7 @@
     },
     "peerDependenciesMeta": {
         "eslint": {
-            "optional": false,
-            "autoInstall": true
+            "optional": false
         }
     },
     "dependencies": {
@@ -40,6 +39,12 @@
         "yaml-eslint-parser": "^1.2.0"
     },
     "devDependencies": {
-        "eslint": "^8.38.0"
+        "@semantic-release/changelog": "^6.0.3",
+        "@semantic-release/commit-analyzer": "^9.0.2",
+        "@semantic-release/git": "^9.0.1",
+        "eslint": "^8.38.0",
+        "semantic-release": "^20.1.3",
+        "semantic-release-monorepo": "^7.0.5",
+        "semantic-release-yarn": "^0.3.2"
     }
 }

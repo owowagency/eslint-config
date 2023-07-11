@@ -13,19 +13,14 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: 🧳 Install pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8
-
       - name: 🏃 Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: 18.x
-          cache: pnpm
+          cache: yarn
 
       - name: 📦 Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: yarn install --immutable
 
       - name: 💩 Code Linting
-        run: pnpm run lint
+        run: yarn lint
