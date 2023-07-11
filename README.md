@@ -34,11 +34,11 @@ yarn add @owowagency/eslint-config-basic
 Add the following to your ESLint configuration file
 
 ```js
-{
+export default {
     extends: [
         '@owowagency/eslint-config-basic',
-    ]
-}
+    ],
+};
 ```
 
 # 📦 Packages
