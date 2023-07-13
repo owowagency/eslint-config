@@ -4,8 +4,7 @@ on:
   pull_request
 
 jobs:
-  linting:
-    name: Lintings
+  lint:
     runs-on: ubuntu-latest
     steps:
       - name: 🏗 Setup repo
