@@ -1,3 +1,15 @@
+# [@owowagency/eslint-config-basic-v1.1.0](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-basic-v1.0.2...@owowagency/eslint-config-basic-v1.1.0) (2023-07-13)
+
+
+### Bug Fixes
+
+* release ([830a00b](https://github.com/owowagency/eslint-config/commit/830a00b272308bdf45f49c89e88ed9f7487fa8fd))
+
+
+### Features
+
+* **semantic:** Finalize semantic-versioning setup 🤞 ([1149bc6](https://github.com/owowagency/eslint-config/commit/1149bc6dad7d84cb9a6f506276234cfb36560afc))
+
 # [@owowagency/eslint-config-basic-v1.0.2](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-basic-v1.0.1...@owowagency/eslint-config-basic-v1.0.2) (2023-07-07)
 
 
