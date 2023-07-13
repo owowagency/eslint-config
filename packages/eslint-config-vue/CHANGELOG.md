@@ -1,3 +1,10 @@
+# [@owowagency/eslint-config-vue-v1.1.0](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-vue-v1.0.4...@owowagency/eslint-config-vue-v1.1.0) (2023-07-13)
+
+
+### Features
+
+* **semantic:** Finalize semantic-versioning setup 🤞 ([1149bc6](https://github.com/owowagency/eslint-config/commit/1149bc6dad7d84cb9a6f506276234cfb36560afc))
+
 # [@owowagency/eslint-config-vue-v1.0.4](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-vue-v1.0.3...@owowagency/eslint-config-vue-v1.0.4) (2023-07-07)
 
 
