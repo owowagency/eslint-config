@@ -18,6 +18,7 @@
         "eslint-plugin-markdown": "^3.0.0",
         "eslint-plugin-n": "^15.7.0",
         "eslint-plugin-no-only-tests": "^3.1.0",
+        "eslint-plugin-prettier": "^5.0.0",
         "eslint-plugin-promise": "^6.1.1",
         "eslint-plugin-unicorn": "^46.0.0",
         "eslint-plugin-unused-imports": "^2.0.0",
@@ -27,12 +28,15 @@
         "yaml-eslint-parser": "^1.2.0"
     },
     "scripts": {
-        "lint": "eslint ."
+        "lint": "eslint './packages/**/index.js'"
     },
     "workspaces": {
         "packages": [
             "packages/**"
         ]
     },
-    "packageManager": "yarn@3.6.1"
+    "packageManager": "yarn@3.6.1",
+    "dependencies": {
+        "prettier": "^3.0.1"
+    }
 }
