@@ -1,7 +1,3 @@
 module.exports = {
-    extends: [
-        '@owowagency/eslint-config-cypress-basic',
-        '@owowagency/eslint-config-ts',
-        'prettier',
-    ],
+    extends: ['@owowagency/eslint-config-cypress-basic', '@owowagency/eslint-config-ts'],
 };

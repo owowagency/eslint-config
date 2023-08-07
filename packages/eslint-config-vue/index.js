@@ -13,10 +13,7 @@ module.exports = {
             },
         },
     ],
-    extends: [
-        'plugin:vue/vue3-recommended',
-        'prettier',
-    ],
+    extends: ['plugin:vue/vue3-recommended', 'prettier'],
     rules: {
         'vue/html-indent': ['error', 4],
         'vue/multi-word-component-names': 'off',
