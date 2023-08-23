@@ -1,3 +1,11 @@
+# [@owowagency/eslint-config-react-v1.2.0](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-react-v1.1.0...@owowagency/eslint-config-react-v1.2.0) (2023-08-23)
+
+
+### Features
+
+* :sparkles: extend eslint-config-prettier into each package to overwrite formatting rules ([2a017fb](https://github.com/owowagency/eslint-config/commit/2a017fb33e2b687951dd74bc1c8127e41e58982e))
+* :sparkles: integrate prettier as an eslint rule ([1a32e3f](https://github.com/owowagency/eslint-config/commit/1a32e3fb91233bc369a4b5e1834399bb0df66af9))
+
 # [@owowagency/eslint-config-react-v1.1.0](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-react-v1.0.2...@owowagency/eslint-config-react-v1.1.0) (2023-07-13)
 
 
