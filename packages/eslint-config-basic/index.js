@@ -12,6 +12,7 @@ module.exports = {
         'plugin:jsonc/recommended-with-jsonc',
         'plugin:yml/standard',
         'plugin:markdown/recommended',
+        'plugin:prettier/recommended',
     ],
     ignorePatterns: [
         '*.min.*',
@@ -45,12 +46,7 @@ module.exports = {
         // force exclude
         '.vitepress/cache',
     ],
-    plugins: [
-        'html',
-        'unicorn',
-        'no-only-tests',
-        'unused-imports',
-    ],
+    plugins: ['prettier', 'html', 'unicorn', 'no-only-tests', 'unused-imports'],
     settings: {
         'import/resolver': {
             node: { extensions: ['.js', '.mjs'] },
@@ -69,7 +65,10 @@ module.exports = {
                 'jsonc/no-octal-escape': 'error',
                 'jsonc/object-curly-newline': ['error', { multiline: true, consistent: true }],
                 'jsonc/object-curly-spacing': ['error', 'always'],
-                'jsonc/object-property-newline': ['error', { allowMultiplePropertiesPerLine: true }],
+                'jsonc/object-property-newline': [
+                    'error',
+                    { allowMultiplePropertiesPerLine: true },
+                ],
             },
         },
         {
@@ -139,11 +138,7 @@ module.exports = {
                     },
                     {
                         pathPattern: '^exports.*$',
-                        order: [
-                            'types',
-                            'require',
-                            'import',
-                        ],
+                        order: ['types', 'require', 'import'],
                     },
                 ],
             },
@@ -205,6 +200,17 @@ module.exports = {
         },
     ],
     rules: {
+        // prettier
+        'prettier/prettier': [
+            'error',
+            {
+                singleQuote: true,
+                tabWidth: 4,
+                printWidth: 100,
+                trailingComma: 'es5',
+            },
+        ],
+
         // import
         'import/order': 'error',
         'import/first': 'error',
@@ -214,10 +220,7 @@ module.exports = {
         'import/newline-after-import': 'error',
 
         // Common
-        semi: ['error', 'always'],
         curly: ['error', 'all'],
-        quotes: ['error', 'single'],
-        'quote-props': ['error', 'as-needed'],
 
         'unused-imports/no-unused-imports': 'error',
         'unused-imports/no-unused-vars': [
@@ -226,36 +229,14 @@ module.exports = {
         ],
 
         'no-param-reassign': 'off',
-        'array-bracket-spacing': ['error', 'never'],
-        'brace-style': ['error', '1tbs'],
-        'block-spacing': ['error', 'always'],
         camelcase: 'off',
-        'comma-spacing': ['error', { before: false, after: true }],
-        'comma-style': ['error', 'last'],
-        'comma-dangle': ['error', 'always-multiline'],
         'no-constant-condition': 'warn',
         'no-debugger': 'error',
         'no-console': ['error', { allow: ['warn', 'error'] }],
         'no-cond-assign': ['error', 'always'],
         'func-call-spacing': ['off', 'never'],
-        'key-spacing': ['error', { beforeColon: false, afterColon: true }],
-        indent: ['error', 4, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
-        'no-restricted-syntax': [
-            'error',
-            'DebuggerStatement',
-            'LabeledStatement',
-            'WithStatement',
-        ],
-        'object-curly-spacing': ['error', 'always'],
+        'no-restricted-syntax': ['error', 'DebuggerStatement', 'LabeledStatement', 'WithStatement'],
         'no-return-await': 'off',
-        'space-before-function-paren': [
-            'error',
-            {
-                anonymous: 'always',
-                named: 'never',
-                asyncArrow: 'always',
-            },
-        ],
 
         // es6
         'no-var': 'error',
@@ -285,20 +266,22 @@ module.exports = {
         'prefer-rest-params': 'error',
         'prefer-spread': 'error',
         'prefer-template': 'error',
-        'template-curly-spacing': 'error',
-        'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
         'generator-star-spacing': 'off',
-        'spaced-comment': ['error', 'always', {
-            line: {
-                markers: ['/'],
-                exceptions: ['/', '#'],
+        'spaced-comment': [
+            'error',
+            'always',
+            {
+                line: {
+                    markers: ['/'],
+                    exceptions: ['/', '#'],
+                },
+                block: {
+                    markers: ['!'],
+                    exceptions: ['*'],
+                    balanced: true,
+                },
             },
-            block: {
-                markers: ['!'],
-                exceptions: ['*'],
-                balanced: true,
-            },
-        }],
+        ],
 
         // best-practice
         'array-callback-return': 'error',
@@ -308,7 +291,6 @@ module.exports = {
         eqeqeq: ['error', 'smart'],
         'no-alert': 'warn',
         'no-case-declarations': 'error',
-        'no-multi-spaces': 'error',
         'no-multi-str': 'error',
         'no-with': 'error',
         'no-void': 'error',
@@ -317,7 +299,6 @@ module.exports = {
         'vars-on-top': 'error',
         'require-await': 'off',
         'no-return-assign': 'off',
-        'operator-linebreak': ['error', 'before'],
         'max-statements-per-line': ['error', { max: 1 }],
 
         // node
@@ -336,8 +317,6 @@ module.exports = {
         'unicorn/no-new-buffer': 'error',
         // Keep regex literals safe!
         'unicorn/no-unsafe-regex': 'off',
-        // Lowercase number formatting for octal, hex, binary (0x1'error' instead of 0X1'error')
-        'unicorn/number-literal-case': 'error',
         // includes over indexOf when checking for existence
         'unicorn/prefer-includes': 'error',
         // String methods startsWith/endsWith instead of more complicated stuff
@@ -373,8 +352,13 @@ module.exports = {
         'yml/no-empty-document': 'off',
 
         // OWOW
-        'padding-line-between-statements': ['error', {
-            blankLine: 'always', prev: '*', next: ['return', 'export', 'class', 'if', 'for'],
-        }],
+        'padding-line-between-statements': [
+            'error',
+            {
+                blankLine: 'always',
+                prev: '*',
+                next: ['return', 'export', 'class', 'if', 'for'],
+            },
+        ],
     },
 };

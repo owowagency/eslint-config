@@ -1,8 +1,5 @@
 module.exports = {
-    extends: [
-        '@owowagency/eslint-config-basic',
-        'plugin:cypress/recommended',
-    ],
+    extends: ['@owowagency/eslint-config-basic', 'plugin:cypress/recommended'],
     plugins: ['no-only-tests'],
     rules: {
         'cypress/no-unnecessary-waiting': 'warn',
