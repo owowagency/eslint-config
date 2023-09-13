@@ -200,7 +200,7 @@ module.exports = {
         },
     ],
     rules: {
-        // prettier
+        // prettier!
         'prettier/prettier': [
             'error',
             {
