@@ -11,6 +11,8 @@ module.exports = {
     },
 
     rules: {
+        'react/jsx-newline': 'off',
+        'react/jsx-wrap-multilines': 'off',
         'react/react-in-jsx-scope': 'off',
         'react/jsx-max-props-per-line': 'off',
         'react/jsx-tag-spacing': [
@@ -40,20 +42,7 @@ module.exports = {
         ],
         'react/no-deprecated': ['error'],
         'react/self-closing-comp': 'error',
-        'react/jsx-wrap-multilines': [
-            'error',
-            {
-                declaration: 'parens-new-line',
-                assignment: 'parens-new-line',
-                return: 'parens-new-line',
-                arrow: 'parens-new-line',
-                condition: 'parens-new-line',
-                logical: 'parens-new-line',
-                prop: 'parens-new-line',
-            },
-        ],
         'react/jsx-indent': ['error', 4],
-        'react/jsx-newline': ['error'],
         'react/jsx-equals-spacing': ['error', 'never'],
     },
 };
