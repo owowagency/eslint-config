@@ -1,3 +1,10 @@
+# [@owowagency/eslint-config-basic-v1.2.7](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-basic-v1.2.6...@owowagency/eslint-config-basic-v1.2.7) (2023-09-14)
+
+
+### Bug Fixes
+
+* :bug: solve conflicting rule ([39370b3](https://github.com/owowagency/eslint-config/commit/39370b3bd62ae0eb5e4fa11ec066eb007f90f75a))
+
 # [@owowagency/eslint-config-basic-v1.2.6](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-basic-v1.2.5...@owowagency/eslint-config-basic-v1.2.6) (2023-09-14)
 
 
