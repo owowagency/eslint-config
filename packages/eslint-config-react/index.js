@@ -11,6 +11,7 @@ module.exports = {
     },
     rules: {
         'react/react-in-jsx-scope': 'off',
+        'react/jsx-max-props-per-line': 'off',
         'react/jsx-tag-spacing': [
             'error',
             {
