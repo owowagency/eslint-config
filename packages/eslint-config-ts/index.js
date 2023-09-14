@@ -14,10 +14,6 @@ module.exports = {
 
         // TS
         '@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],
-        '@typescript-eslint/member-delimiter-style': [
-            'error',
-            { multiline: { delimiter: 'none' } },
-        ],
         '@typescript-eslint/type-annotation-spacing': ['error', {}],
         '@typescript-eslint/consistent-type-imports': [
             'error',
@@ -114,6 +110,7 @@ module.exports = {
         'no-loss-of-precision': 'off',
         '@typescript-eslint/no-loss-of-precision': 'error',
         'lines-between-class-members': 'off',
+        '@typescript-eslint/member-delimiter-style': 'off',
         '@typescript-eslint/lines-between-class-members': [
             'error',
             'always',
