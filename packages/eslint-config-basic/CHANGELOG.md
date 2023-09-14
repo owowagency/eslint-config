@@ -1,3 +1,10 @@
+# [@owowagency/eslint-config-basic-v1.2.4](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-basic-v1.2.3...@owowagency/eslint-config-basic-v1.2.4) (2023-09-14)
+
+
+### Bug Fixes
+
+* :green_heart: make packages explicitly public ([a344399](https://github.com/owowagency/eslint-config/commit/a3443998a8ba397d4259172d4e471da79e9eaf09))
+
 # [@owowagency/eslint-config-basic-v1.2.3](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-basic-v1.2.2...@owowagency/eslint-config-basic-v1.2.3) (2023-09-14)
 
 
