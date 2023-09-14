@@ -1,3 +1,10 @@
+# [@owowagency/eslint-config-react-v1.2.4](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-react-v1.2.3...@owowagency/eslint-config-react-v1.2.4) (2023-09-14)
+
+
+### Bug Fixes
+
+* :bug: fix conflicting rules, and disable formatting rules that are now enforced by prettier ([881a661](https://github.com/owowagency/eslint-config/commit/881a661d41ddfdd3b4623b2b7a2e9fabc6b9e70a))
+
 # [@owowagency/eslint-config-react-v1.2.3](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-react-v1.2.2...@owowagency/eslint-config-react-v1.2.3) (2023-09-14)
 
 
