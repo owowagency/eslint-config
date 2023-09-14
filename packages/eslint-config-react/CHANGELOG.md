@@ -1,3 +1,10 @@
+# [@owowagency/eslint-config-react-v1.2.2](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-react-v1.2.1...@owowagency/eslint-config-react-v1.2.2) (2023-09-14)
+
+
+### Bug Fixes
+
+* :bug: disable conflicting rule ([f4d3a52](https://github.com/owowagency/eslint-config/commit/f4d3a523f86a26c8461e5af73d8844905780a3cd))
+
 # [@owowagency/eslint-config-react-v1.2.1](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-react-v1.2.0...@owowagency/eslint-config-react-v1.2.1) (2023-09-14)
 
 
