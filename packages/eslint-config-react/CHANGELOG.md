@@ -1,3 +1,10 @@
+# [@owowagency/eslint-config-react-v1.2.3](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-react-v1.2.2...@owowagency/eslint-config-react-v1.2.3) (2023-09-14)
+
+
+### Bug Fixes
+
+* :green_heart: add abitrary changes to force updated dependency to basic- and ts-configs ([d9cdc99](https://github.com/owowagency/eslint-config/commit/d9cdc993301cf49be3282a3304c7d9ce84abbf26))
+
 # [@owowagency/eslint-config-react-v1.2.2](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-react-v1.2.1...@owowagency/eslint-config-react-v1.2.2) (2023-09-14)
 
 
