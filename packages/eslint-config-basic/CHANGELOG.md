@@ -1,3 +1,10 @@
+# [@owowagency/eslint-config-basic-v1.2.3](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-basic-v1.2.2...@owowagency/eslint-config-basic-v1.2.3) (2023-09-14)
+
+
+### Bug Fixes
+
+* :green_heart: arbitrary change to trigger action ([e198277](https://github.com/owowagency/eslint-config/commit/e198277ef84133126bce558721fcd780d41ebef0))
+
 # [@owowagency/eslint-config-basic-v1.2.2](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-basic-v1.2.1...@owowagency/eslint-config-basic-v1.2.2) (2023-09-13)
 
 
