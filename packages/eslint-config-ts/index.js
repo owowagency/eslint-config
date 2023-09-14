@@ -23,7 +23,6 @@ module.exports = {
             'error',
             { prefer: 'type-imports', disallowTypeAnnotations: false },
         ],
-        '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
         '@typescript-eslint/prefer-ts-expect-error': 'error',
         '@typescript-eslint/no-require-imports': 'error',
 
