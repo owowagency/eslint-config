@@ -119,7 +119,6 @@ module.exports = {
             'always',
             { exceptAfterSingleLine: true },
         ],
-
         // off
         '@typescript-eslint/consistent-indexed-object-style': 'off',
         '@typescript-eslint/naming-convention': 'off',

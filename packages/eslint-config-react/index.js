@@ -9,6 +9,7 @@ module.exports = {
             version: 'detect',
         },
     },
+
     rules: {
         'react/react-in-jsx-scope': 'off',
         'react/jsx-max-props-per-line': 'off',
@@ -25,7 +26,6 @@ module.exports = {
         'jsx-quotes': ['error', 'prefer-double'],
         'react/jsx-closing-tag-location': 'error',
         'react/jsx-curly-spacing': ['error', 'never', { allowMultiline: true }],
-        'react/jsx-max-props-per-line': ['error', { maximum: 1, when: 'always' }],
         'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
         'react/jsx-sort-props': [
             'error',
