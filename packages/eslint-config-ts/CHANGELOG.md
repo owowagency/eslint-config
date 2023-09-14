@@ -1,3 +1,10 @@
+# [@owowagency/eslint-config-ts-v1.2.2](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-ts-v1.2.1...@owowagency/eslint-config-ts-v1.2.2) (2023-09-14)
+
+
+### Bug Fixes
+
+* :bug: remove rule ([1c65b3c](https://github.com/owowagency/eslint-config/commit/1c65b3ceb047d6aafcc3badd72b57967fc8c3157))
+
 # [@owowagency/eslint-config-ts-v1.2.1](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-ts-v1.2.0...@owowagency/eslint-config-ts-v1.2.1) (2023-09-14)
 
 
