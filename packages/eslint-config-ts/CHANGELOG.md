@@ -1,3 +1,12 @@
+# [@owowagency/eslint-config-ts-v1.2.4](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-ts-v1.2.3...@owowagency/eslint-config-ts-v1.2.4) (2023-09-14)
+
+
+### Bug Fixes
+
+* :bug: fix conflicting rule ([c460395](https://github.com/owowagency/eslint-config/commit/c460395c59469a10f4583ab2dab1a4b4d9666c09))
+* :bug: fix conflicting rules, and disable formatting rules that are now enforced by prettier ([881a661](https://github.com/owowagency/eslint-config/commit/881a661d41ddfdd3b4623b2b7a2e9fabc6b9e70a))
+* :bug: turn off no-undef ([4631a61](https://github.com/owowagency/eslint-config/commit/4631a61b5d5d3880830abf9868542e8119cd02e9))
+
 # [@owowagency/eslint-config-ts-v1.2.3](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-ts-v1.2.2...@owowagency/eslint-config-ts-v1.2.3) (2023-09-14)
 
 
