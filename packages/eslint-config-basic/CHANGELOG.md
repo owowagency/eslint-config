@@ -1,3 +1,10 @@
+# [@owowagency/eslint-config-basic-v1.2.6](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-basic-v1.2.5...@owowagency/eslint-config-basic-v1.2.6) (2023-09-14)
+
+
+### Bug Fixes
+
+* :package: add prettier config as dependency ([03286b8](https://github.com/owowagency/eslint-config/commit/03286b8b488f6a13bf6cc7e13994bfd07c14c0b9))
+
 # [@owowagency/eslint-config-basic-v1.2.5](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-basic-v1.2.4...@owowagency/eslint-config-basic-v1.2.5) (2023-09-14)
 
 
