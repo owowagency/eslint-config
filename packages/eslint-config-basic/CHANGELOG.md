@@ -1,3 +1,11 @@
+# [@owowagency/eslint-config-basic-v1.3.0](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-basic-v1.2.7...@owowagency/eslint-config-basic-v1.3.0) (2024-01-12)
+
+
+### Features
+
+* :sparkles: add prettier as a direct dependency, so users won't have to install it themselves ([303963f](https://github.com/owowagency/eslint-config/commit/303963f5727bc0c6ce06752c2dd4963ecf5aa394))
+* :sparkles: use prettier as peer dependency ([207e5fa](https://github.com/owowagency/eslint-config/commit/207e5fa296ea34f5ca00ba519c9392185becad12))
+
 # [@owowagency/eslint-config-basic-v1.2.7](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-basic-v1.2.6...@owowagency/eslint-config-basic-v1.2.7) (2023-09-14)
 
 
