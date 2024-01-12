@@ -219,7 +219,7 @@ module.exports = {
         'import/newline-after-import': 'error',
 
         // Common
-        curly: ['error', 'all'],
+        curly: 'off',
 
         'unused-imports/no-unused-imports': 'error',
         'unused-imports/no-unused-vars': [
