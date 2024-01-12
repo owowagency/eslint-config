@@ -219,7 +219,7 @@ module.exports = {
         'import/newline-after-import': 'error',
 
         // Common
-        curly: 'off',
+        curly: ['error', 'multi-or-nest'],
 
         'unused-imports/no-unused-imports': 'error',
         'unused-imports/no-unused-vars': [
@@ -353,11 +353,14 @@ module.exports = {
         // OWOW
         'padding-line-between-statements': [
             'error',
-            {
-                blankLine: 'always',
-                prev: '*',
-                next: ['return', 'export', 'class', 'if', 'for'],
-            },
+            { blankLine: 'always', prev: 'multiline-expression', next: '*' },
+            { blankLine: 'always', prev: '*', next: 'multiline-expression' },
+            { blankLine: 'always', prev: 'multiline-block-like', next: '*' },
+            { blankLine: 'always', prev: '*', next: 'multiline-block-like' },
+            { blankLine: 'always', prev: 'multiline-const', next: '*' },
+            { blankLine: 'always', prev: '*', next: 'multiline-const' },
+            { blankLine: 'always', prev: 'multiline-let', next: '*' },
+            { blankLine: 'always', prev: '*', next: 'multiline-let' },
         ],
     },
 };
