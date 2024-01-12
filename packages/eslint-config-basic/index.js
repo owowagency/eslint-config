@@ -211,7 +211,7 @@ module.exports = {
         ],
 
         // import
-        'import/order': 'error',
+        'import/order': 'off',
         'import/first': 'error',
         'import/no-mutable-exports': 'error',
         'import/no-unresolved': 'off',
@@ -334,17 +334,7 @@ module.exports = {
         'import/no-named-as-default-member': 'off',
         'import/no-named-as-default': 'off',
         'import/namespace': 'off',
-
-        'sort-imports': [
-            'error',
-            {
-                ignoreCase: false,
-                ignoreDeclarationSort: true,
-                ignoreMemberSort: false,
-                memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
-                allowSeparatedGroups: false,
-            },
-        ],
+        'sort-imports': 'off',
 
         // yml
         'yml/quotes': ['error', { prefer: 'single', avoidEscape: false }],
