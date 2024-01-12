@@ -11,6 +11,7 @@ module.exports = {
     },
 
     rules: {
+        'react-hooks/exhaustive-deps': 'warn',
         'react/jsx-newline': 'off',
         'react/jsx-wrap-multilines': 'off',
         'react/react-in-jsx-scope': 'off',
@@ -40,9 +41,9 @@ module.exports = {
                 reservedFirst: true,
             },
         ],
+        'react/jsx-equals-spacing': ['error', 'never'],
+        'react/jsx-indent': ['error', 4],
         'react/no-deprecated': ['error'],
         'react/self-closing-comp': 'error',
-        'react/jsx-indent': ['error', 4],
-        'react/jsx-equals-spacing': ['error', 'never'],
     },
 };
