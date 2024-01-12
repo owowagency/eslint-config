@@ -1,3 +1,10 @@
+# [@owowagency/eslint-config-react-v1.3.0](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-react-v1.2.4...@owowagency/eslint-config-react-v1.3.0) (2024-01-12)
+
+
+### Features
+
+* warn on exhaustive deps ([20c3cc5](https://github.com/owowagency/eslint-config/commit/20c3cc562161f725860e64d12a1b0a5348c1f88f))
+
 # [@owowagency/eslint-config-react-v1.2.4](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-react-v1.2.3...@owowagency/eslint-config-react-v1.2.4) (2023-09-14)
 
 
