@@ -1,3 +1,10 @@
+# [@owowagency/eslint-config-ts-v1.3.0](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-ts-v1.2.4...@owowagency/eslint-config-ts-v1.3.0) (2024-01-12)
+
+
+### Features
+
+* disable quotes typescript rule ([156cd3d](https://github.com/owowagency/eslint-config/commit/156cd3de93d02e587c3643eb1120ef2f31441bdb))
+
 # [@owowagency/eslint-config-ts-v1.2.4](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-ts-v1.2.3...@owowagency/eslint-config-ts-v1.2.4) (2023-09-14)
 
 
