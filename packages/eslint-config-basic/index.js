@@ -355,6 +355,12 @@ module.exports = {
             'error',
             { blankLine: 'always', prev: 'multiline-expression', next: '*' },
             { blankLine: 'always', prev: '*', next: 'multiline-expression' },
+            { blankLine: 'always', prev: 'multiline-block-like', next: '*' },
+            { blankLine: 'always', prev: '*', next: 'multiline-block-like' },
+            { blankLine: 'always', prev: 'multiline-const', next: '*' },
+            { blankLine: 'always', prev: '*', next: 'multiline-const' },
+            { blankLine: 'always', prev: 'multiline-let', next: '*' },
+            { blankLine: 'always', prev: '*', next: 'multiline-let' },
         ],
     },
 };
