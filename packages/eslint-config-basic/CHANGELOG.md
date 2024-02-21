@@ -1,3 +1,12 @@
+# [@owowagency/eslint-config-basic-v1.4.0](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-basic-v1.3.0...@owowagency/eslint-config-basic-v1.4.0) (2024-02-21)
+
+
+### Features
+
+* disable import sorting ([5b1f39e](https://github.com/owowagency/eslint-config/commit/5b1f39eb93f989157b6edc29154e908d2cb1bf72))
+* extend multiline rules ([49ee804](https://github.com/owowagency/eslint-config/commit/49ee8041ff6a34de7f0a1b0e5bfc3e6f0afcf49a))
+* padding line between statements for multiline expressions ([8ee4330](https://github.com/owowagency/eslint-config/commit/8ee4330081c9e765bda128a6a6170c0255c7ae88))
+
 # [@owowagency/eslint-config-basic-v1.3.0](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-basic-v1.2.7...@owowagency/eslint-config-basic-v1.3.0) (2024-01-12)
 
 
