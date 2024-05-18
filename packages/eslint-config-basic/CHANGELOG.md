@@ -1,3 +1,11 @@
+# [@owowagency/eslint-config-basic-v1.5.0](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-basic-v1.4.0...@owowagency/eslint-config-basic-v1.5.0) (2024-05-18)
+
+
+### Features
+
+* disable curly rule ([71d8d99](https://github.com/owowagency/eslint-config/commit/71d8d992e05f705d101614708fe4626d4b0d9945))
+* use multi-or-nest ([f7cb771](https://github.com/owowagency/eslint-config/commit/f7cb771d12f9cd9a7bcf6ccaa0136b46b42b8530))
+
 # [@owowagency/eslint-config-basic-v1.4.0](https://github.com/owowagency/eslint-config/compare/@owowagency/eslint-config-basic-v1.3.0...@owowagency/eslint-config-basic-v1.4.0) (2024-02-21)
 
 
